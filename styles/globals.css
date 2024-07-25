@@ -1,0 +1,362 @@
+.one{
+  background-color: rgb(35, 71, 71);
+
+}
+
+
+.MainPageFolio {
+  /* background-image: url('/color3.jpg'); */
+  /* opacity: 0.8; */
+  background-image: url('/webPage1.jpg');
+}
+/* .MainPageFolio:hover{
+  opacity: 1.0;
+} */
+.main {
+  border: 1px solid white;
+  border: none;
+  color: black;
+}
+
+/* ===================Port */
+#Port {
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+/* ============nevbar================= */
+.Navbar {
+  border: 1px solid red;
+  background: #381a2f;
+  /* background-image: url('/webPage4.jpg'); */
+  border: none;
+  flex-direction: row;
+  position: fixed;
+  width: 98.6% ;
+  
+}
+
+.Navbar a {
+  color: rgb(241, 235, 235);
+  padding: 6px 0px;
+  margin-left: 2%;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/* ===========Hirebutton */
+#HireButton {
+  /* background: #381a2f; */
+ background-image: url('/webPage1.jpg');
+  color: aliceblue;
+  height: 50px;
+  width: 13%;
+  margin: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+/* ============body======= */
+.body {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* =========Heading */
+.heding {
+  color: white;
+  padding: 10%;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ==============Leftdiv2 */
+.Leftdiv2 {
+  font-size: 20px;
+  color: white;
+  margin-left: 70px;
+  position: relative;
+  top: -20px;
+}
+
+/* ===============Span1 */
+#span1, #span2{
+  font-size: 30px;
+  padding: 9px;
+}
+#span1{color:#0a66c2; }
+#span2{color: white;}
+#span3{background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+border-radius: 8px;
+}
+/* ================Image */
+#Image {
+
+  width: 320px;
+  height: 320px;
+  margin-top: 30%;
+  border-radius: 50%;
+  background-color: rgb(226, 221, 221);
+  box-shadow: 0px 0px 30px rgba(241, 236, 236, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+/* =====================about -stat*/
+#AboutHeding {
+  font-family: sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* =====================paragraph */
+#paragraph {
+  font-size: 23px;
+  font-family: sans-serif;
+  text-justify: newspaper;
+  text-align: center;
+  margin: 20px 12px;
+  color: white;
+}
+
+/* =============section3 */
+#OurVisionHeading {
+  font-family: sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* ===============section4 */
+.section3 {
+  border: 1px solid rgb(235, 10, 115);
+  border: none;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* ==================paragraph1*/
+#paragraph1 {
+  font-size: 23px;
+  font-family: sans-serif;
+  text-justify: newspaper;
+  text-align: center;
+  margin: 20px 12px;
+  color: white;
+}
+
+/* ================paragraph2 */
+#paragraph2 {
+  font-size: 23px;
+  font-family: sans-serif;
+  text-justify: newspaper;
+  text-align: center;
+  margin: 20px 12px;
+  color: white;
+}
+
+/* ==========================section5 */
+.Project {
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+.Card:hover{
+  /* background-image: url('/color1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* color: blue; */
+  /* background-image: none; */
+  background-color: rgb(5, 63, 55);
+ transition: all  0.3s;
+ cursor: pointer;
+ }
+/* ===========section7 */
+.section7 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  margin: 0px;
+  overflow: auto;
+}
+
+/* =================Headingone */
+#Hedingone {
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 25px;
+}
+
+/* =================paragraphtwo */
+#paragraphtwo {
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 25px;
+}
+
+/* ==============================Skil */
+/* ====================FirstSkil */
+.FirstSkil {
+  border: 1px solid red;
+  border: none;
+  height: auto;
+}
+
+/* ========================SecoundSkil */
+.SecoundSkil {
+  border: 1px solid blue;
+  border: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 20px 25px;
+  padding: 30px;
+  text-align: center;
+  gap: 25px;
+}
+
+/* ============= */
+#Icone {
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  }
+
+/* =================Facss */
+#Facss {
+  color: rgb(11, 218, 149);
+  font-size: 25vh;
+  width: 50%;
+  height: fit-content;
+  font-family: sans-serif;
+}
+
+/* ===================SkilHeading */
+
+#SkilHeading {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-family: sans-serif;
+}
+.Icone1:hover{
+  /* background-image: url('/color8.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+ background-color: #05161A;
+transition: all  0.2s;
+}
+
+/* =========================resume */
+.MainResume {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 1px solid palevioletred;
+  border: none;
+  margin: 10px padding 10px;
+  /* background-color: black; */
+  width: 100%;
+}
+
+/* ====================== */
+.leftsection,
+.rightsection {
+  border: 1px solid green;
+  border: none;
+  margin: 10px 12px;
+  font-family: sans-serif;
+}
+
+/* ======================.leftsection, .rightsection */
+.leftsection,
+.rightsection {
+  text-align: left;
+  padding: 23px;
+  color: white;
+}
+
+/* =========================h3 */
+.h3 {
+  font-family: sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+/* ================firstbox */
+.firstbox>h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+/* =====================.gridbox==== */
+.gridbox {
+  width: 85%;
+  padding: 10px;
+  margin: auto;
+}
+
+/* ====================.gridI1 */
+.gridI1 {
+  background-color: rgb(29, 25, 25, .3);
+  border: 1px solid wheat;
+  color: wheat;
+  padding: 20px;
+}
+
+
+/* ==========================.gridI1 input */
+.gridI1 input {
+  width: 95%;
+  height: 50px;
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+
+}
+.btnsb{
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  width: 95%;
+  height: 50px;
+  background: transparent;
+}
+.CntactHeding{
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .body{display: flex; flex-direction: column-reverse; text-align: center;}
+  .MainPageFolio {
+    width: 225vw;
+  }
+
+  .section7 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .Navbar{width: 223vw;}
+}
