@@ -196,7 +196,7 @@ const Aartibagwan = () => {
             *10th pass</p>
 
           <p>2020-2021 <br></br>
-            *12th (agriculture)
+            *12th
           </p><br></br>
 
           <p>2024
