@@ -55,7 +55,7 @@ const Aartibagwan = () => {
               Let's connect! ----
               <a href='https://www.linkedin.com/in/aarti-bagwan-9200982b2'><span><FaLinkedin id='span1' /></span></a>
               <a href='https://github.com/AartiBagwan'><span><FaGithub id='span2' /></span></a>
-              <a href="https://www.instagram.com/aarti_frontend_developer"><span><FaInstagramSquare id='span3' /></span></a>
+              <a href="https://www.instagram.com/front_end_developer_970"><span><FaInstagramSquare id='span3' /></span></a>
             </div>
           </div>
 
